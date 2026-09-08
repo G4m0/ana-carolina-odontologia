@@ -1,54 +1,81 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Dra. Ana Carolina | Cirurgiã-Dentista</title>
-  <meta name="description" content="Atendimento odontológico acolhedor, com planejamento individual e cuidado em cada detalhe.">
-  <link rel="stylesheet" href="./styles.css">
-  <style>
-    .hero-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.icon{font:400 27px Georgia,serif;color:#d7ba7c}.service-card>a{display:flex}.contact-form button:disabled{opacity:.72}.demo-notice{display:none;margin:0;padding:12px;border-radius:8px;background:#edf5f0;color:#176b49;text-align:center;font-size:13px}.demo-notice.show{display:block}
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Odontologia Atlanta, clínica odontológica em São Luís de Montes Belos. Entre em contato e solicite seu atendimento." />
+  <title>Odontologia Atlanta | Clínica odontológica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<main>
-  <header class="nav-wrap">
-    <a class="brand" href="#inicio"><span class="brand-mark">AC</span><span><strong>Dra. Ana Carolina</strong><small>Cirurgiã-Dentista</small></span></a>
-    <nav aria-label="Navegação principal"><a href="#sobre">Sobre</a><a href="#cuidados">Cuidados</a><a href="#contato">Contato</a></nav>
-    <a class="nav-cta" href="#contato">Agendar avaliação</a>
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="Odontologia Atlanta - início"><span class="brand-mark">OA</span><span>Odontologia<br><strong>Atlanta</strong></span></a>
+    <nav aria-label="Navegação principal"><a href="#clinica">A clínica</a><a href="#avaliacoes">Avaliações</a><a href="#localizacao">Localização</a></nav>
+    <a class="button button-small" href="https://wa.me/5564984040188?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20atendimento." target="_blank" rel="noopener">Falar no WhatsApp</a>
   </header>
-  <section class="hero" id="inicio">
-    <img class="hero-image" src="./ana-hero.jpg" alt="Consultório odontológico moderno">
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <p class="eyebrow"><span></span> Odontologia com cuidado e propósito</p>
-      <h1>Seu sorriso merece um olhar <em>atento a cada detalhe.</em></h1>
-      <p class="hero-copy">Atendimento acolhedor, planejamento individual e cuidado profissional para você se sentir seguro em cada etapa.</p>
-      <div class="hero-actions"><a class="button primary" href="#contato">Agendar minha avaliação →</a><a class="button ghost" href="#sobre">Conheça o atendimento</a></div>
-      <div class="trust-line"><span>✓ Atendimento individualizado</span><span>✓ Ambiente acolhedor</span></div>
-    </div>
-  </section>
-  <section class="intro section" id="sobre">
-    <div class="section-label">01 — A profissional</div>
-    <div class="intro-copy"><p class="kicker">Cuidado que começa pela escuta</p><h2>Mais tranquilidade para cuidar da sua saúde bucal.</h2></div>
-    <div class="intro-detail"><p>Sou Ana Carolina, cirurgiã-dentista. Acredito em uma odontologia próxima, clara e responsável — da primeira conversa ao acompanhamento de cada resultado.</p><p>Aqui, cada paciente é recebido com tempo, atenção e um plano de cuidado construído para suas necessidades.</p><div class="signature">Ana Carolina <span>Cirurgiã-Dentista</span></div></div>
-  </section>
-  <section class="care-section" id="cuidados">
-    <div class="section care-heading"><div><p class="kicker light">Cuidado em cada fase</p><h2>Uma experiência pensada para você.</h2></div><p>Informação clara, escuta e acompanhamento para decisões mais seguras sobre o seu sorriso.</p></div>
-    <div class="section service-grid">
-      <article class="service-card"><span class="service-number">01</span><span class="icon">✦</span><h3>Estética do sorriso</h3><p>Planejamento individual para um sorriso natural, equilibrado e compatível com você.</p><a href="#contato">Quero saber mais →</a></article>
-      <article class="service-card"><span class="service-number">02</span><span class="icon">◇</span><h3>Prevenção e cuidado</h3><p>Acompanhamento atento para preservar sua saúde bucal em todas as fases da vida.</p><a href="#contato">Quero saber mais →</a></article>
-      <article class="service-card"><span class="service-number">03</span><span class="icon">＋</span><h3>Avaliação completa</h3><p>Uma consulta cuidadosa para entender suas necessidades e indicar o melhor caminho.</p><a href="#contato">Quero saber mais →</a></article>
-    </div>
-  </section>
-  <section class="journey section"><div><p class="kicker">Simples e acolhedor</p><h2>Como funciona o primeiro atendimento?</h2></div><div class="steps"><div><span>1</span><h3>Conte o que você precisa</h3><p>Preencha o formulário com seus dados e o motivo do contato.</p></div><div><span>2</span><h3>Escolha o melhor horário</h3><p>Nossa equipe retorna para combinar a disponibilidade.</p></div><div><span>3</span><h3>Faça sua avaliação</h3><p>Converse com a doutora e receba uma orientação individual.</p></div></div></section>
-  <section class="contact" id="contato"><div class="contact-inner section"><div class="contact-copy"><p class="kicker light">Comece por uma conversa</p><h2>Pronto para cuidar do seu sorriso?</h2><p>Envie seus dados e entraremos em contato para organizar sua avaliação.</p><div class="contact-notes"><span>◉ Retorno pelo WhatsApp</span><span>◷ Horário combinado com você</span><span>♡ Atendimento humanizado</span></div></div>
-    <form class="contact-form" id="contact-form"><label>Seu nome<input name="name" required minlength="2" placeholder="Como podemos chamar você?"></label><label>WhatsApp<input name="phone" required minlength="8" placeholder="(00) 00000-0000" inputmode="tel"></label><label>Como podemos ajudar?<select name="interest" required><option value="" disabled selected>Selecione uma opção</option><option>Avaliação odontológica</option><option>Estética do sorriso</option><option>Prevenção e acompanhamento</option><option>Outro assunto</option></select></label><label>Mensagem (opcional)<textarea name="message" rows="3" placeholder="Conte um pouco sobre o que você procura"></textarea></label><label class="consent"><input type="checkbox" required> Autorizo o contato sobre este atendimento.</label><button class="button form-button" type="submit">Solicitar contato →</button><p class="form-status">Seus dados serão usados apenas para responder ao seu contato.</p><p class="demo-notice" id="demo-notice">Esta é uma demonstração. O envio real será ativado após a aprovação da profissional.</p></form>
-  </div></section>
-  <footer class="footer section"><div class="brand"><span class="brand-mark dark">AC</span><span><strong>Dra. Ana Carolina</strong><small>Cirurgiã-Dentista</small></span></div><div class="footer-info"><span>⌖ Local de atendimento a confirmar</span><span>◎ Instagram a confirmar</span></div><p>© 2026 Ana Carolina. Conteúdo demonstrativo sujeito à validação profissional.</p></footer>
-</main>
-<script>
-document.getElementById("contact-form").addEventListener("submit",function(event){event.preventDefault();document.getElementById("demo-notice").classList.add("show");});
-</script>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow">Clínica odontológica em São Luís de Montes Belos</span>
+        <h1>Cuidado odontológico perto de você.</h1>
+        <p>Entre em contato com a Odontologia Atlanta e consulte a disponibilidade para o seu atendimento.</p>
+        <div class="hero-actions"><a class="button" href="https://wa.me/5564984040188?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20atendimento." target="_blank" rel="noopener">Solicitar atendimento</a><a class="button button-ghost" href="tel:+5564984040188">Ligar para a clínica</a></div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-visual"><span class="tooth">✦</span><div><small>Odontologia Atlanta</small><strong>Seu sorriso em boas mãos.</strong></div></div>
+        <div class="rating"><span class="stars">★★★★★</span><strong>5,0</strong><span>no Google • 2 avaliações</span></div>
+      </div>
+    </section>
+
+    <section class="quick-info" aria-label="Informações rápidas">
+      <div><span>Telefone</span><a href="tel:+5564984040188">(64) 98404-0188</a></div>
+      <div><span>Atendimento</span><strong>Consulte a disponibilidade</strong></div>
+      <div><span>Horário informado</span><strong>Fecha às 18:00</strong></div>
+      <div><span>Localização</span><strong>Setor São José</strong></div>
+    </section>
+
+    <section class="section split" id="clinica">
+      <div><span class="eyebrow">Odontologia Atlanta</span><h2>Informação clara e contato direto com a clínica.</h2></div>
+      <p>Estamos na Rua São Domingos, em São Luís de Montes Belos. Pelo WhatsApp você pode tirar dúvidas, consultar horários disponíveis e solicitar seu atendimento.</p>
+    </section>
+
+    <section class="steps">
+      <article><span>01</span><h3>Fale com a clínica</h3><p>Envie uma mensagem ou ligue para iniciar o contato.</p></article>
+      <article><span>02</span><h3>Consulte os horários</h3><p>Confirme diretamente a disponibilidade de atendimento.</p></article>
+      <article><span>03</span><h3>Encontre-nos</h3><p>Acesse a rota até a clínica pelo Google Maps.</p></article>
+    </section>
+
+    <section class="reviews section" id="avaliacoes">
+      <div class="reviews-heading"><span class="eyebrow">Avaliações no Google</span><h2>A confiança de quem já conhece.</h2><p class="score"><strong>5,0</strong> <span class="stars">★★★★★</span> <small>2 avaliações</small></p></div>
+      <div class="review-grid">
+        <blockquote><span class="stars">★★★★★</span><p>“Ótima”</p><footer>Odonto Company <small>• há 5 anos</small></footer></blockquote>
+        <blockquote><span class="stars">★★★★★</span><p>Uma avaliação de cinco estrelas.</p><footer>Thaynnara Cristian <small>• há 5 anos</small></footer></blockquote>
+      </div>
+    </section>
+
+    <section class="location section" id="localizacao">
+      <div class="map-card"><span class="pin">●</span><p>FJGC+4F<br>São Luís de Montes Belos, Goiás</p></div>
+      <div class="location-copy"><span class="eyebrow">Onde estamos</span><h2>Visite a Odontologia Atlanta</h2><p>R. São Domingos, nº 686<br>Setor São José<br>São Luís de Montes Belos – GO<br>CEP 76100-000</p><a class="button" href="https://www.google.com/maps/search/?api=1&query=R.%20S%C3%A3o%20Domingos%2C%20686%2C%20S%C3%A3o%20Lu%C3%ADs%20de%20Montes%20Belos%20GO" target="_blank" rel="noopener">Abrir rota no Google Maps</a></div>
+    </section>
+
+    <section class="contact section">
+      <div><span class="eyebrow light">Contato</span><h2>Vamos solicitar seu atendimento?</h2><p>Preencha os dados e continue a conversa pelo WhatsApp.</p></div>
+      <form id="contact-form"><label>Seu nome<input name="nome" required placeholder="Como podemos chamar você?" /></label><label>Assunto<select name="assunto"><option>Solicitar atendimento</option><option>Consultar horários</option><option>Tirar uma dúvida</option></select></label><label>Mensagem<textarea name="mensagem" rows="3" placeholder="Conte brevemente como podemos ajudar"></textarea></label><button class="button button-light" type="submit">Continuar no WhatsApp</button></form>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="brand"><span class="brand-mark">OA</span><span>Odontologia <strong>Atlanta</strong></span></div><p>Clínica odontológica • São Luís de Montes Belos – GO</p><a href="tel:+5564984040188">(64) 98404-0188</a></footer>
+  <script>
+    document.getElementById('contact-form').addEventListener('submit', function (event) {
+      event.preventDefault();
+      const data = new FormData(event.currentTarget);
+      const text = `Olá! Meu nome é ${data.get('nome')}. Assunto: ${data.get('assunto')}. ${data.get('mensagem') || ''}`;
+      window.open(`https://wa.me/5564984040188?text=${encodeURIComponent(text)}`, '_blank', 'noopener');
+    });
+  </script>
 </body>
 </html>
